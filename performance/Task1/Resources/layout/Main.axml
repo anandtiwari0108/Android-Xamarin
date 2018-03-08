@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:background="#ffffff"
+        app:contentPadding="5dp"
+        android:id="@+id/cardview"
+        android:layout_weight="0.8">
+        <ListView
+            android:divider="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listViewProgress" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:alpha=".5"
+        android:layout_weight="0.08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:background="#ffffff"
+        app:contentPadding="5dp"
+        android:id="@+id/cardview">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <TextView
+                    android:text="Review Performance"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6" />
+                <TextView
+                    android:text="%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:id="@+id/textViewProgress"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="0"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05" />
+                <android.support.v7.widget.CardView
+                    android:alpha=".7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.8"
+                    android:background="@android:color/transparent"
+                    app:cardElevation="10dp"
+                    android:id="@+id/cardview">
+                    <FrameLayout
+                        android:layout_marginBottom="20dp"
+                        android:layout_height="10dp"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/customseekbar">
+                        <LinearLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+                            <View
+                                android:layout_height="10dp"
+                                android:layout_width="10dp"
+                                android:background="@drawable/cornorleft"
+                                android:layout_weight="0.2" />
+                            <View
+                                android:layout_weight="0.2"
+                                android:layout_height="10dp"
+                                android:layout_width="10dp"
+                                android:background="#f47441" />
+                            <View
+                                android:layout_weight="0.2"
+                                android:layout_height="10dp"
+                                android:layout_width="10dp"
+                                android:background="#f4c441" />
+                            <View
+                                android:layout_weight="0.2"
+                                android:layout_height="10dp"
+                                android:layout_width="10dp"
+                                android:background="#41f4d0" />
+                            <View
+                                android:layout_weight="0.2"
+                                android:layout_height="10dp"
+                                android:layout_width="10dp"
+                                android:background="@drawable/cornorright" />
+                        </LinearLayout>
+                    </FrameLayout>
+                    <SeekBar
+                        android:layout_height="10dp"
+                        android:id="@+id/seekBarProgress"
+                        android:thumb="@drawable/icon"
+                        android:progressDrawable="@drawable/customseekbar"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginRight="-5dp" />
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:text="100"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:alpha=".5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-40dp"
+        android:background="@android:color/transparent"
+        app:cardElevation="10dp"
+        android:id="@+id/cardview">
+        <Button
+            android:background="@drawable/button"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Save"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSave"
+            android:layout_gravity="center"
+            android:elevation="15dp"
+            android:translationZ="12dp" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
