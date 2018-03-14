@@ -1,0 +1,1 @@
+<resources><item name="holocolor" type="color">@android:color/holo_blue_dark</item><item name="lightcolor" type="color">@android:color/holo_blue_light</item><color name="ColorPrimary">#2196F3</color><color name="ColorPrimaryDark">#1976D2</color></resources>
