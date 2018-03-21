@@ -1,0 +1,4 @@
+SQLiteDatabase.MainActivity, SQLiteDatabase;md53f8b9d928a557d49386691913a370a4f.MainActivity
+SQLiteDatabase.MainActivity, SQLiteDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53f8b9d928a557d49386691913a370a4f.MainActivity
+SQLiteDatabase.MainActivity;md53f8b9d928a557d49386691913a370a4f.MainActivity
+sqlitedatabase.MainActivity;md53f8b9d928a557d49386691913a370a4f.MainActivity

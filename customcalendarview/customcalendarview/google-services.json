@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "435570499763",
+    "firebase_url": "https://customcalenderview.firebaseio.com",
+    "project_id": "customcalenderview",
+    "storage_bucket": "customcalenderview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435570499763:android:0fb761f3c8cbf287",
+        "android_client_info": {
+          "package_name": "customcalendarview.customcalendarview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435570499763-a1b79kcua2168n7vpa194epkga2apq9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf7A8O0N5Nw-nkuzk8LKSvXkOhKx5ZTjI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
