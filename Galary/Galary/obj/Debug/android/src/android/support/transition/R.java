@@ -3149,7 +3149,7 @@ containing a value of this type.
         public static int left=0x7f070048;
         public static int line1=0x7f070017;
         public static int line3=0x7f070018;
-        public static int list=0x7f0700a3;
+        public static int list1=0x7f0700a3;
         public static int listMode=0x7f07001c;
         public static int list_item=0x7f070060;
         public static int masked=0x7f0700bb;

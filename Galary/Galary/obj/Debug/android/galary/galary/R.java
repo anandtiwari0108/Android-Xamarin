@@ -3126,12 +3126,12 @@ containing a value of this type.
         public static final int fill_vertical=0x7f070047;
         public static final int fixed=0x7f070053;
         public static final int forever=0x7f070057;
-        public static final int galaryImage1=0x7f07008b;
+        public static final int galaryImage2=0x7f07008b;
         public static final int galleryImage=0x7f07009d;
         public static final int gallery_count=0x7f07009e;
-        public static final int gallery_count1=0x7f07008d;
+        public static final int gallery_count2=0x7f07008d;
         public static final int gallery_title=0x7f07009f;
-        public static final int gallery_title1=0x7f07008c;
+        public static final int gallery_title2=0x7f07008c;
         public static final int gallery_title_part=0x7f0700a0;
         public static final int ghost_view=0x7f07000a;
         public static final int grid_view=0x7f0700a2;
@@ -3149,7 +3149,7 @@ containing a value of this type.
         public static final int left=0x7f070048;
         public static final int line1=0x7f070017;
         public static final int line3=0x7f070018;
-        public static final int list=0x7f0700a3;
+        public static final int list1=0x7f0700a3;
         public static final int listMode=0x7f07001c;
         public static final int list_item=0x7f070060;
         public static final int masked=0x7f0700bb;

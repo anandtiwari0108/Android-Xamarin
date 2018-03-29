@@ -35,6 +35,7 @@ C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\res\drawable\gradient_bg_hov
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\res\drawable\gradient_bg.xml
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\res\layout\singleviewphoto.xml
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\res\values\styles.xml
+C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\res\values-v21\styles.xml
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\R.cs.flag
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\uploadflags.txt
 C:\Users\ADMIN\source\repos\Galary\Galary\bin\Debug\Mono.Android.pdb
@@ -58,6 +59,7 @@ C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\linksrc\System.ServiceModel.
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\linksrc\Mono.Security.pdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\linksrc\Galary.dll.mdb
+C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\Galary.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\source\repos\Galary\Galary\bin\Debug\Galary.dll.mdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\android\assets\Galary.dll.mdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\android\assets\Mono.Android.pdb
@@ -70,3 +72,5 @@ C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\android\assets\System.pdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\android\assets\System.Runtime.Serialization.pdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\android\assets\System.Xml.pdb
+C:\Users\ADMIN\source\repos\Galary\Galary\bin\Debug\Galary.dll
+C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\linksrc\Galary.dll.mdb

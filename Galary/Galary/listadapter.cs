@@ -24,14 +24,14 @@ namespace Galary
         public static Boolean mindicate=true;
         public static  List<dataModel> data,data1;
         
-        RecyclerView recycler;
-        public listadapter(Activity a, List<dataModel> d,List<IGrouping<string,dataModel>> temp, RecyclerView recycler, List<dataModel> data1) 
+        
+        public listadapter(Activity a, List<dataModel> d,List<IGrouping<string,dataModel>> temp,  List<dataModel> data1) 
         {
             
             activity = a;
             data = d;
             this.temp = temp;
-            this.recycler = recycler;
+            
             listadapter.data1 = data1;
         }
         /*private List<Dictionary<string, string>> data;
@@ -87,7 +87,7 @@ namespace Galary
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-           var manager= recycler.GetLayoutManager();
+           
             
             if (viewType==1)
             {

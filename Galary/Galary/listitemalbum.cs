@@ -49,12 +49,12 @@ namespace Galary
             int iDisplayWidth = Resources.DisplayMetrics.WidthPixels;
             Resources resources = ApplicationContext.Resources;
             DisplayMetrics metrics = resources.DisplayMetrics;
-            RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this,2);
-           var manager= new GridLayoutManager(this, 2);
-            manager.SetSpanSizeLookup(new changelayout());
-            gridView.SetLayoutManager(manager);
-            gridView.AddItemDecoration(new itemdecorator(2, itemdecorator.dpToPx(this,10), true));
-            gridView.SetItemAnimator(new DefaultItemAnimator());
+                RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this,2);
+               var manager= new GridLayoutManager(this, 2);
+                manager.SetSpanSizeLookup(new changelayout());
+                gridView.SetLayoutManager(manager);
+                gridView.AddItemDecoration(new itemdecorator(2, itemdecorator.dpToPx(this,10), true));
+                gridView.SetItemAnimator(new DefaultItemAnimator());
             
             //gridView.SetItemViewCacheSize(200);
             //RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
@@ -106,7 +106,7 @@ namespace Galary
 
             }
             //datewiseadapter adapter = new datewiseadapter(this, albumList1, temp,album_name);
-            listadapter adapter = new listadapter(this, albumList1,temp,gridView, albumListmain);
+            listadapter adapter = new listadapter(this, albumList1,temp, albumListmain);
             //listadapter adapter = new listadapter(this, albumList);
             adapter.ItemClick += itemclicked;
             gridView.SetAdapter(adapter);

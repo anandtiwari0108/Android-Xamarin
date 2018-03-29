@@ -2592,7 +2592,7 @@ namespace Galary
 			public const int forever = 2131165271;
 			
 			// aapt resource value: 0x7f07008b
-			public const int galaryImage1 = 2131165323;
+			public const int galaryImage2 = 2131165323;
 			
 			// aapt resource value: 0x7f07009d
 			public const int galleryImage = 2131165341;
@@ -2601,13 +2601,13 @@ namespace Galary
 			public const int gallery_count = 2131165342;
 			
 			// aapt resource value: 0x7f07008d
-			public const int gallery_count1 = 2131165325;
+			public const int gallery_count2 = 2131165325;
 			
 			// aapt resource value: 0x7f07009f
 			public const int gallery_title = 2131165343;
 			
 			// aapt resource value: 0x7f07008c
-			public const int gallery_title1 = 2131165324;
+			public const int gallery_title2 = 2131165324;
 			
 			// aapt resource value: 0x7f0700a0
 			public const int gallery_title_part = 2131165344;
@@ -2661,7 +2661,7 @@ namespace Galary
 			public const int line3 = 2131165208;
 			
 			// aapt resource value: 0x7f0700a3
-			public const int list = 2131165347;
+			public const int list1 = 2131165347;
 			
 			// aapt resource value: 0x7f07001c
 			public const int listMode = 2131165212;

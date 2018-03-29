@@ -2,6 +2,10 @@ Galary.AlbumAdapter, Galary;md56e158ba423fb11c9c372b11d945b8bb3.AlbumAdapter
 Galary.AlbumAdapter, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.AlbumAdapter
 Galary.AlbumAdapter;md56e158ba423fb11c9c372b11d945b8bb3.AlbumAdapter
 galary.AlbumAdapter;md56e158ba423fb11c9c372b11d945b8bb3.AlbumAdapter
+Galary.albumadapterrecycle, Galary;md56e158ba423fb11c9c372b11d945b8bb3.albumadapterrecycle
+Galary.albumadapterrecycle, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.albumadapterrecycle
+Galary.albumadapterrecycle;md56e158ba423fb11c9c372b11d945b8bb3.albumadapterrecycle
+galary.albumadapterrecycle;md56e158ba423fb11c9c372b11d945b8bb3.albumadapterrecycle
 Galary.changelayout, Galary;md56e158ba423fb11c9c372b11d945b8bb3.changelayout
 Galary.changelayout, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.changelayout
 Galary.changelayout;md56e158ba423fb11c9c372b11d945b8bb3.changelayout
@@ -34,6 +38,10 @@ Galary.viewHolder, Galary;md56e158ba423fb11c9c372b11d945b8bb3.viewHolder
 Galary.viewHolder, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.viewHolder
 Galary.viewHolder;md56e158ba423fb11c9c372b11d945b8bb3.viewHolder
 galary.viewHolder;md56e158ba423fb11c9c372b11d945b8bb3.viewHolder
+Galary.viewHolderList, Galary;md56e158ba423fb11c9c372b11d945b8bb3.viewHolderList
+Galary.viewHolderList, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.viewHolderList
+Galary.viewHolderList;md56e158ba423fb11c9c372b11d945b8bb3.viewHolderList
+galary.viewHolderList;md56e158ba423fb11c9c372b11d945b8bb3.viewHolderList
 Galary.viewpageradapter, Galary;md56e158ba423fb11c9c372b11d945b8bb3.viewpageradapter
 Galary.viewpageradapter, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.viewpageradapter
 Galary.viewpageradapter;md56e158ba423fb11c9c372b11d945b8bb3.viewpageradapter

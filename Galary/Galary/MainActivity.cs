@@ -12,6 +12,7 @@ using Android.Util;
 using System;
 using Android.Support.V7.App;
 using Android.Content;
+using Android.Support.V7.Widget;
 
 namespace Galary
 {
@@ -25,7 +26,7 @@ namespace Galary
         Android.Net.Uri uriExternal = Android.Provider.MediaStore.Images.Media.ExternalContentUri;
         Android.Net.Uri uriInternal = Android.Provider.MediaStore.Images.Media.InternalContentUri;
         List<Dictionary<string, string>> albumList = new List<Dictionary<string, string>>();
-        ListView gridView;
+        RecyclerView gridView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -35,8 +36,18 @@ namespace Galary
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
             SupportActionBar.Title="Gallery";
-            gridView = FindViewById<ListView>(Resource.Id.list);
+            //gridView = FindViewById<ListView>(Resource.Id.list);
+            gridView = FindViewById<RecyclerView>(Resource.Id.list1);
+
+            RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this);
             
+            gridView.AddItemDecoration(new itemdecorator(2, itemdecorator.dpToPx(this, 10), true));
+
+
+            //gridView.AddItemDecoration(new itemdecorator(2, itemdecorator.dpToPx(this, 10), true));
+            gridView.SetItemAnimator(new DefaultItemAnimator());
+            gridView.SetLayoutManager(mLayoutManager);
+
             string[] projection = { MediaStore.MediaColumns.Data,
                     MediaStore.Images.Media.InterfaceConsts.BucketDisplayName, MediaStore.MediaColumns.DateModified };
             ICursor cursorExternal = ContentResolver.Query(uriExternal, projection, "_data IS NOT NULL) GROUP BY (bucket_display_name",
@@ -57,18 +68,27 @@ namespace Galary
                 albumList.Add(Function.mappingInbox(album, path, timestamp, Function.converToTime(timestamp), countPhoto));
             }
             cursor.Close();
-            AlbumAdapter adapter = new AlbumAdapter(this, albumList);
-            
-            gridView.Adapter = adapter;
-            gridView.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs e)
-            {
-                Intent i = new Intent(this, typeof(listitemalbum));
-                i.PutExtra("name", albumList[e.Position].GetValueOrDefault(Function.KEY_ALBUM));
-                StartActivity(i);
-            };
+            albumadapterrecycle adapter = new albumadapterrecycle(this, albumList);
+            adapter.ItemClick1 += itemclicked; 
+                gridView.SetAdapter(adapter);
+            //gridView.ItemClick += delegate (object sender,  ItemEventArgs e)
+            //{
+            //    Intent i = new Intent(this, typeof(listitemalbum));
+            //    i.PutExtra("name", albumList[e.Position].GetValueOrDefault(Function.KEY_ALBUM));
+            //    StartActivity(i);
+            //};
 
 
 }
+
+        private void itemclicked(object sender, int e)
+        {
+            
+                Intent i = new Intent(this, typeof(listitemalbum));
+                i.PutExtra("name", albumList[e].GetValueOrDefault(Function.KEY_ALBUM));
+                StartActivity(i);
+           
+        }
     }
 }
 
