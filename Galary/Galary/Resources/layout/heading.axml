@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:tool="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:elevation="3dp">
+    android:elevation="3dp"
+  tool:cardCornerRadius="4dp" >
     <TextView
         android:id="@+id/gallery_title_part"
         android:layout_width="wrap_content"

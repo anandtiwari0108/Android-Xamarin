@@ -27,7 +27,7 @@ namespace Galary
         RecyclerView recycler;
         public listadapter(Activity a, List<dataModel> d,List<IGrouping<string,dataModel>> temp, RecyclerView recycler, List<dataModel> data1) 
         {
-            moment = 0;
+            
             activity = a;
             data = d;
             this.temp = temp;
@@ -46,17 +46,15 @@ namespace Galary
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            if (mindicate)
+            if (holder.ItemViewType==1)
             {
 
                 
                 
                 headingviewholder vh = holder as headingviewholder;
-                vh.textTitle.Text = temp[sect].Key;
+                vh.textTitle.Text = temp[position%temp.Count].Key;
+
                 
-               
-                
-                moment=position+1;
             }
             else
             {
@@ -83,7 +81,7 @@ namespace Galary
                     //vh.textTitle.Text= data[position].GetValueOrDefault(Function.KEY_COUNT);
                     vh.textTitle.Text = data1[position].displayname;
 
-                moment=position+1;
+               
             }
         }
 
@@ -91,7 +89,7 @@ namespace Galary
         {
            var manager= recycler.GetLayoutManager();
             
-            if (data1[moment].date==null)
+            if (viewType==1)
             {
                 View itemView = LayoutInflater.From(activity).Inflate(
                Resource.Layout.heading, null);
@@ -108,6 +106,14 @@ namespace Galary
 
                 return vh;
             }
+        }
+        public override int GetItemViewType(int position)
+        {
+            if (data1[position].date == null)
+                return 1;
+            
+            else
+                return 0;
         }
         private void OnClick(int obj)
         {

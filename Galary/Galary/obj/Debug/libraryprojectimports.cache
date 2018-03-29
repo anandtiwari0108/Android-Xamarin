@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj\Debug\lp\0\jl\glide-full-4.1.1.jar</Jar>
+    <Jar>obj\Debug\lp\1\jl\gson.jar</Jar>
+    <Jar>obj\Debug\lp\4\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\lp\0\jl\glide-full-4.1.1.jar</Jar>
     <Jar>C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\lp\1\jl\gson.jar</Jar>
     <Jar>C:\Users\ADMIN\source\repos\Galary\Galary\obj\Debug\lp\10\jl\bin\classes.jar</Jar>

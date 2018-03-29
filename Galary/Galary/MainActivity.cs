@@ -58,6 +58,7 @@ namespace Galary
             }
             cursor.Close();
             AlbumAdapter adapter = new AlbumAdapter(this, albumList);
+            
             gridView.Adapter = adapter;
             gridView.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs e)
             {

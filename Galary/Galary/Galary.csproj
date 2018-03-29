@@ -109,6 +109,7 @@
     <Compile Include="dataModel.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="headingviewholder.cs" />
+    <Compile Include="itemdecorator.cs" />
     <Compile Include="listadapter.cs" />
     <Compile Include="listitemalbum.cs" />
     <Compile Include="MainActivity.cs" />

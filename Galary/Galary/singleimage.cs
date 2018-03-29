@@ -82,6 +82,7 @@ namespace Galary
             //viewpageradapter adapter = new viewpageradapter(this, albumList,tool);
             pager.Adapter = adapter;
             pager.SetCurrentItem(position, false);
+            
         }
         
 

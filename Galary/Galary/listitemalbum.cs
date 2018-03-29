@@ -53,10 +53,10 @@ namespace Galary
            var manager= new GridLayoutManager(this, 2);
             manager.SetSpanSizeLookup(new changelayout());
             gridView.SetLayoutManager(manager);
-            
+            gridView.AddItemDecoration(new itemdecorator(2, itemdecorator.dpToPx(this,10), true));
             gridView.SetItemAnimator(new DefaultItemAnimator());
             
-            gridView.SetItemViewCacheSize(200);
+            //gridView.SetItemViewCacheSize(200);
             //RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 2);
             //gridView.SetLayoutManager(mLayoutManager);
             //gridView.SetItemAnimator(new DefaultItemAnimator());

@@ -10,6 +10,10 @@ Galary.headingviewholder, Galary;md56e158ba423fb11c9c372b11d945b8bb3.headingview
 Galary.headingviewholder, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.headingviewholder
 Galary.headingviewholder;md56e158ba423fb11c9c372b11d945b8bb3.headingviewholder
 galary.headingviewholder;md56e158ba423fb11c9c372b11d945b8bb3.headingviewholder
+Galary.itemdecorator, Galary;md56e158ba423fb11c9c372b11d945b8bb3.itemdecorator
+Galary.itemdecorator, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.itemdecorator
+Galary.itemdecorator;md56e158ba423fb11c9c372b11d945b8bb3.itemdecorator
+galary.itemdecorator;md56e158ba423fb11c9c372b11d945b8bb3.itemdecorator
 Galary.listadapter, Galary;md56e158ba423fb11c9c372b11d945b8bb3.listadapter
 Galary.listadapter, Galary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56e158ba423fb11c9c372b11d945b8bb3.listadapter
 Galary.listadapter;md56e158ba423fb11c9c372b11d945b8bb3.listadapter
